@@ -69,17 +69,14 @@ One limitation of such models is that they do not take the rules of grammar into
   - [ ] Hinton 1986
   - [ ] Elman 1990
 - [ ] Miikkulainen and Dyer, 1991 for language models using Neural Networks
-
-> The idea of discovering some similarities between words to obtain generalization from training sequences to new sequences is not new. For example, it is exploited in approaches that are based on learning a clustering of the words 
-- [ ] Brown et al., 1992
-- [ ] Pereira et al., 1993
-- [ ] Niesler et al., 1998
-- [ ] Baker and McCallum, 1998)
-
-> The idea of using a vector-space representation for words has been well exploited in the area of information retrieval, where feature vectors for words are learned on the basis of their probability of co-occurring in the same documents
-- [ ] Schutze, 1993
-- [ ] Latent Semantic Indexing, see Deerwester et al., 1990
-
-> The idea of a vector-space representation for symbols in the context of neural networks has also previously been framed in terms of a parameter sharing layer, for secondary structure prediction, and for text-to-speech mapping.
-- [ ] Riis and Krogh, 1996
-- [ ] Jensen and Riis, 2000
+- The idea of discovering some similarities between words to obtain generalization from training sequences to new sequences is not new. For example, it is exploited in approaches that are based on learning a clustering of the words 
+  - [ ] Brown et al., 1992
+  - [ ] Pereira et al., 1993
+  - [ ] Niesler et al., 1998
+  - [ ] Baker and McCallum, 1998)
+- The idea of using a vector-space representation for words has been well exploited in the area of information retrieval, where feature vectors for words are learned on the basis of their probability of co-occurring in the same documents
+  - [ ] Schutze, 1993
+  - [ ] Latent Semantic Indexing, see Deerwester et al., 1990
+- The idea of a vector-space representation for symbols in the context of neural networks has also previously been framed in terms of a parameter sharing layer, for secondary structure prediction, and for text-to-speech mapping.
+  - [ ] Riis and Krogh, 1996
+  - [ ] Jensen and Riis, 2000
