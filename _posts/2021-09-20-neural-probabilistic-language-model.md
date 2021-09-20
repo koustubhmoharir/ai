@@ -4,7 +4,6 @@ title:  "Paper Notes: A Neural Probabilistic Language Model"
 date:   2021-09-19 21:31:37 +0530
 categories: papers
 tags: word-embedding
-use_math: true
 ---
 ## Paper Details
 [PDF Link](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
