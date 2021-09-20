@@ -32,9 +32,10 @@ paginate: 5
 permalink: pretty
 
 # Build settings
-remote_theme: poole/lanyon
+# remote_theme: poole/lanyon
 plugins:
   - jekyll-paginate
+  - jekyll-relative-links
 
 # Exclude from processing.
 # The following items will not be processed, by default.
