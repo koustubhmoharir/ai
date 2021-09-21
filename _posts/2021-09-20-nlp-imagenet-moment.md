@@ -7,7 +7,9 @@ tags: word-embedding
 ---
 
 >
-Word2vec[4] found adoption ... Since then, the standard way of conducting NLP projects has largely remained unchanged: word embeddings pretrained on large amounts of unlabeled data ... are used to initialize the first layer of a neural network, the rest of which is then trained on data of a particular task. On most tasks with limited amounts of training data, this led to a boost of two to three percentage points. ... they have a major limitation: they only incorporate previous knowledge in the first layer of the model --- the rest of the network still needs to be trained from scratch.
+Word2vec found adoption ... Since then, the standard way of conducting NLP projects has largely remained unchanged: word embeddings pretrained on large amounts of unlabeled data ... are used to initialize the first layer of a neural network, the rest of which is then trained on data of a particular task. On most tasks with limited amounts of training data, this led to a boost of two to three percentage points. ... they have a major limitation: they only incorporate previous knowledge in the first layer of the model --- the rest of the network still needs to be trained from scratch.
+
+Improving performance by 2 to 3 percentage points doesn't seem like an advance at all. It seems like benchmark chasing.
 
 >
 Word2vec and related methods are shallow approaches ... they will be helpful for many tasks, but they fail to capture higher-level information. A model initialized with word embeddings needs to learn from scratch not only to disambiguate words, but also to derive meaning from a sequence of words. This is the core aspect of language understanding, and it requires modeling complex language phenomena such as compositionality, polysemy, anaphora, long-term dependencies, agreement, negation, and many more. It should thus come as no surprise that NLP models initialized with these shallow representations still require a huge number of examples to achieve good performance.

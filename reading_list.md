@@ -9,12 +9,12 @@ permalink: /reading_list/
 - [x] [Expert Responses: Frontiers in Natural Language Processing](https://docs.google.com/document/d/18NoNdArdzDLJFQGBMVMsQ-iLOowP1XXDaSVRmYN0IyM/edit?usp=sharing)
 - [x] [Article: NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/), 2018 - Sebastian Ruder  
 [Notes](_posts/2021-09-20-nlp-imagenet-moment.md)
+- [ ] [Paper: Abstract Meaning Representation for Sembanking](https://amr.isi.edu/a.pdf), 2013 - Laura Banarescu, Claire Bonial, Shu Cai, Madalina Georgescu, Kira Griffitt, Ulf Hermjakob, Kevin Knight, Philipp Koehn, Martha Palmer, Nathan Schneider
 - [ ] [Paper: Recurrent Neural Network Grammars](https://arxiv.org/pdf/1602.07776.pdf), 2016 - Chris Dyer, Adhiguna Kuncoro, Miguel Ballesteros, Noah A. Smith
 - [ ] [Paper: An Explicitly Relational Neural Network Architecture](https://arxiv.org/pdf/1905.10307v1.pdf), 2019 - Murray Shanahan, Kyriacos Nikiforou, Antonia Creswell, Christos Kaplanis, David Barrett, Marta Garnelo
 - [ ] [Paper: Dynamic Routing Between Capsules](https://arxiv.org/pdf/1710.09829.pdf), 2017 - Sara Sabour, Nicholas Frosst, Geoffrey E. Hinton
 - [ ] [Book: How People Learn: Brain, Mind, Experience, and School](https://www.nap.edu/read/9853/chapter/8), 2000
 - [ ] [Paper: Hopfield Networks Is All You Need](https://arxiv.org/pdf/2008.02217.pdf), 2021 - Hubert Ramsauer, Bernhard Schäfl, Johannes Lehner, Philipp Seidl, Michael Widrich, Thomas Adler, Lukas Gruber, Markus Holzleitner, Milena Pavlovic, Geir Kjetil Sandve, Victor Greiff, David Kreil, Michael Kopp, Günter Klambauer, Johannes Brandstetter, Sepp Hochreiter
-- [ ] [Paper: Abstract Meaning Representation for Sembanking](https://amr.isi.edu/a.pdf) - Laura Banarescu, Claire Bonial, Shu Cai, Madalina Georgescu, Kira Griffitt, Ulf Hermjakob, Kevin Knight, Philipp Koehn, Martha Palmer, Nathan Schneider
 - [ ] [Paper: A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning](https://ronan.collobert.com/pub/matos/2008_nlp_icml.pdf) - Colobert & Weston
 - [ ] [Paper: Natural Language Processing (Almost) from Scratch](), 2011 - Ronan Collobert, Jason Weston, Leon Bottou, Michael Karlen, Koray Kavukcuoglu, and Pavel Kuksa
 - [ ] [Paper: Distant supervision for relation extraction without labeled data](https://aclanthology.org/P09-1113.pdf), 2009 - Mike Mintz, Steven Bills, Rion Snow, Daniel Jurafsky
