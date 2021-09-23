@@ -30,11 +30,11 @@ This can be understood with the example of a coin that is tossed twice and the n
 
 If we observe a sequence of two consecutive Heads $\text{H2}$, the likelihood that the coin is fair is the probability of observing two consecutive Heads with a fair coin. $\mathcal{L}(W = 0.5 \mid \text{H2}) = P(\text{H2} \mid W = 0.5) = 0.25$
 
-What is the probability of $W = 0.5 \space \mid \space \text{H2}$? For this we need additional information. Suppose that the process of manufacturing the coins produces fair coins with a probability of 0.95 and coins with a fairness of 0 (always Heads) with a probability of 0.05.
+What is the probability of $W = 0.5 \space \mid \space \text{H2}$? For this we need additional information. Suppose that the process of manufacturing the coins produces fair coins with a probability of 0.95 and coins with a fairness of 1 (always Heads) with a probability of 0.05.
 
 $P(W = 0.5) = 0.95$ (This is the prior probability - without observation)
 
-$P(\text{H2}) = P(\text{H2} \mid W = 0.5) \times P(W = 0.5) + P(\text{H2} \mid W = 0) \times P(W = 0)$
+$P(\text{H2}) = P(\text{H2} \mid W = 0.5) \times P(W = 0.5) + P(\text{H2} \mid W = 1) \times P(W = 1)$
 
 $P(\text{H2}) = 0.25 \times 0.95 + 1 \times 0.05 = 0.2875$
 
@@ -56,7 +56,7 @@ If the number of observations is large enough, will both maximizations give the 
 
 ## Application to a neural classifier
 
-Consider a problem where a known input must be classified into one of $m$ output classes. Suppose this $n$ humans are asked to do the classification for the same known input. Let $y_i$ be the frequency reported by humans for output class $i$, so that $\sum_{i=1}^{m} {y_i} = n$. In general, it is assumed that humans may make mistakes or disagree about the output class even though the input is the same. $p_i = y_i / n$ will be the "true" probability for the output class $i$.
+Consider a problem where a known input must be classified into one of $m$ output classes. Suppose $n$ humans are asked to do the classification for the same known input. Let $y_i$ be the frequency reported by humans for output class $i$, so that $\sum_{i=1}^{m} {y_i} = n$. In general, it is assumed that humans may make mistakes or disagree about the output class even though the input is the same. $p_i = y_i / n$ will be the "true" probability for the output class $i$.
 Suppose we are modeling the classification process with a neural model with weights $W$. The neural model is setup (perhaps with a softmax output) so that its output can be interpreted as a probability distribution $q_i$ over the output classes.
 What is the likelihood of the output $y$ given the weights $W$? If we assume that we will use the model output distribution to sample outputs $n$ times, the probability of each output class $i$ being sampled exactly $y_i$ times is $\binom{n}{y_1} {q_1} ^ {y_1} \times \binom{n - y1}{y_2} {q_2} ^ {y_2}  \times \binom{n - y1 - y2}{y_3} {q_3} ^ {y_3} \times ...$  
 Simplifying this, $\displaystyle \mathcal{L}(W \mid y) = n! \prod_{i=1}^{m}{\frac { {q_i} ^ {y_i} } { {y_i}!} }$
