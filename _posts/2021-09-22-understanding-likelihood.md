@@ -66,3 +66,14 @@ Taking the natural logarithm and substituting $y_i = p_i n$, this leads to $\dis
 The first term can be considered a constant if values of $y_i$ are considered constant. In any case, the first term does not depend on weights of the neural model. Hence maximizing the likelihood is the same as maximizing $\displaystyle \sum_{i=1}^{m} {p_i \ln(q_i)}$
 
 If we assume that the true probability is 1 for just one class $i = k$ and 0 for all other classes $i \neq k$, maximizing the likelihood reduces to maximizing $\ln(q_k)$
+
+## What about cross entropy?
+
+According to Wikipedia,
+>
+In information theory, the cross-entropy between two probability distributions $p$ and $q$ over the same underlying set of events measures the average number of bits needed to identify an event drawn from the set if a coding scheme used for the set is optimized for an estimated probability distribution $q$, rather than the true distribution $p$.
+
+It turns out that cross-entropy has almost the same form as log likelihood but with a negative sign $\displaystyle H(p, q) = - \sum_{i=1}^{m} {p_i \ln(q_i)}$
+There may be additional constant terms or factors in the formulation that are omitted (just as the Wikipedia formulation for Likelihood omits terms and factors from the formulation worked out above).
+
+In any case, I can see no obvious connection or analogy between this concept and the maximum likelihood estimation above, beyond the fact that both have two probability distributions and a measure of distance between the distributions that turns out to have the same kind of formulation. Characterization of a model training problem using information theoretic terms with no obvious connection seems dubious.
