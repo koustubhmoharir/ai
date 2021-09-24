@@ -2,7 +2,7 @@
 layout: post
 title:  "Understanding Likelihood"
 date:   2021-09-22 19:30:00 +0530
-categories: papers
+categories: concepts
 tags: 
 ---
 
