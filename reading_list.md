@@ -12,6 +12,8 @@ permalink: /reading_list/
 - [x] [Paper: Abstract Meaning Representation for Sembanking](https://amr.isi.edu/a.pdf), 2013 - Laura Banarescu, Claire Bonial, Shu Cai, Madalina Georgescu, Kira Griffitt, Ulf Hermjakob, Kevin Knight, Philipp Koehn, Martha Palmer, Nathan Schneider
 - [x] [Paper: Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374.pdf), 2021 - Many authors  
 [Notes](_posts/2021-09-24-openai-codex.md)
+- [x] [Paper: Neural networks and physical systems with emergent collective computational abilities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC346238/pdf/pnas00447-0135.pdf), 1982 - J. J. Hopfield  
+[Notes](_posts/2021-09-25-hopfield-network.md)
 - [ ] [Paper: Neural Turing Machines](https://arxiv.org/pdf/1410.5401), 2014 - Alex Graves, Greg Wayne, Ivo Danihelka
 - [ ] [Paper: Memory Networks](https://arxiv.org/pdf/1410.3916), 2014 - Jason Weston, Sumit Chopra, Antoine Bordes
 - [ ] [Article: Hybrid computing using a neural network with dynamic external memory](https://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz), 2016 - Alex Graves, Greg Wayne, Malcolm Reynolds, Tim Harley, Ivo Danihelka, Agnieszka Grabska-Barwińska, Sergio Gómez Colmenarejo, Edward Grefenstette, Tiago Ramalho, John Agapiou, Adrià Puigdomènech Badia, Karl Moritz Hermann, Yori Zwols, Georg Ostrovski, Adam Cain, Helen King, Christopher Summerfield, Phil Blunsom, Koray Kavukcuoglu, Demis Hassabis
