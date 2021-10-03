@@ -21,7 +21,7 @@ The network is a fully connected undirected graph of neurons. The values of the 
 
 The network can be trained to remember a set of vectors $V^s$ by setting $T_{ij} = \sum_{s=1}^S {(2 V_i - 1) (2 V_j - 1)}$ for $i \neq j$. This expression basically counts the number of times the vertices $i$ and $j$ have the same value and subtracts the number of times they have opposite values. In other words, it captures the correlation between the vertices.
 
-Starting from arbitrary values of $V$, the value at vertex $i$ can be updated by calculating $\sum_{j=1}^N {T_{ij} V_j}$. If this value is greater than a threshold value (taken to be 0 here), $V_i$ becomes 1, else it becomes 0. The vertices do not need to update simultaneously, but all vertices should update roughly periodically at the same mean rate.
+Starting from arbitrary values of $V$, the value at vertex $i$ can be updated by calculating a weighted sum of the values at all other vertices: $\sum_{j=1}^N {T_{ij} V_j}$. If this weighted sum is greater than a threshold value (taken to be 0 here), $V_i$ becomes 1, else it becomes 0. The vertices do not need to update simultaneously, but all vertices should update roughly periodically at the same mean rate.
 
 Interestingly, these updates will lead the network to converge to one of the vectors $V^s$ on which the edge weights $T_{ij}$ were trained, provided the initial values of $V$ are set to be "close" to one of the $V^s$.
 
@@ -39,3 +39,5 @@ If $V^{\prime}_{k} = V_k$, which would be the case at a converged and stable vec
 Alternatively, if the summation is positive, the new value at vertex $k$ must be 1, and if the summation is negative, the new value must be 0, so that $\Delta E$ will be negative. This means that the updates to the network always lower the energy until it reaches a local minimum.
 
 While this formulation of energy does not seem to be a rigorous proof of convergence and stability, perhaps additional analysis may result in such a proof. Here is an intuitive understanding of the convergence. A positive weight on an edge makes it more likely that its vertices will have the same value and a negative weight makes it more likely that they will have different values. This is also consistent with the way the weights are trained. The energy is a measure of how consistent the current values are with this intent. Thus lowering the energy to a minimum, means that the vertex values are maximally aligned to the intent of the edge weights.
+
+With some simulation based analysis, the author shows that about 15 vectors can be remembered with 100 neurons. Wikipedia says that the memory capacity is about $\frac {n} {2 \log_{2}{n}}$

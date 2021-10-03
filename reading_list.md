@@ -4,16 +4,16 @@ title: Reading List
 permalink: /reading_list/
 ---
 
-- [x] [Paper: A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf), 2003 - Bengio, Ducharme, Vincent, Jauvin  
-[Notes](_posts/2021-09-20-neural-probabilistic-language-model.md)
+- [x] [Notes](_posts/2021-09-20-neural-probabilistic-language-model.md) on [Paper: A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf), 2003 - Bengio, Ducharme, Vincent, Jauvin
 - [x] [Expert Responses: Frontiers in Natural Language Processing](https://docs.google.com/document/d/18NoNdArdzDLJFQGBMVMsQ-iLOowP1XXDaSVRmYN0IyM/edit?usp=sharing)
-- [x] [Article: NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/), 2018 - Sebastian Ruder  
-[Notes](_posts/2021-09-20-nlp-imagenet-moment.md)
-- [x] [Paper: Abstract Meaning Representation for Sembanking](https://amr.isi.edu/a.pdf), 2013 - Laura Banarescu, Claire Bonial, Shu Cai, Madalina Georgescu, Kira Griffitt, Ulf Hermjakob, Kevin Knight, Philipp Koehn, Martha Palmer, Nathan Schneider
-- [x] [Paper: Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374.pdf), 2021 - Many authors  
-[Notes](_posts/2021-09-24-openai-codex.md)
-- [x] [Paper: Neural networks and physical systems with emergent collective computational abilities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC346238/pdf/pnas00447-0135.pdf), 1982 - J. J. Hopfield  
-[Notes](_posts/2021-09-25-hopfield-network.md)
+- [x] [Notes](_posts/2021-09-20-nlp-imagenet-moment.md) on [Article: NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/), 2018 - Sebastian Ruder
+- [x] [Notes](_posts/2021-09-21-abstract-meaning-representation.md) on [Paper: Abstract Meaning Representation for Sembanking](https://amr.isi.edu/a.pdf), 2013 - Laura Banarescu, Claire Bonial, Shu Cai, Madalina Georgescu, Kira Griffitt, Ulf Hermjakob, Kevin Knight, Philipp Koehn, Martha Palmer, Nathan Schneider
+- [x] [Notes](_posts/2021-09-24-openai-codex.md) on [Paper: Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374.pdf), 2021 - Many authors
+- [x] [Notes](_posts/2021-09-25-hopfield-network.md) on [Paper: Neural networks and physical systems with emergent collective computational abilities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC346238/pdf/pnas00447-0135.pdf), 1982 - J. J. Hopfield
+- [x] [Notes](_posts/2021-10-03-deep-learning-symbolic-math.md) on [Paper: Deep Learning for Symbolic Mathematics](https://arxiv.org/pdf/1912.01412), 2019 - Guillaume Lample, François Charton
+- [x] [Notes](_posts/2021-10-03-deep-learning-symbolic-math.md#critique) on [Paper: The Use of Deep Learning for Symbolic Integration: A Review of (Lample and Charton, 2019)](https://arxiv.org/pdf/1912.05752), 2019 - Ernest Davis
+- [ ] Latent variable energy-based models
+- [ ] Recurrent Independent Mechanisms
 - [ ] [Paper: Neural Turing Machines](https://arxiv.org/pdf/1410.5401), 2014 - Alex Graves, Greg Wayne, Ivo Danihelka
 - [ ] [Paper: Memory Networks](https://arxiv.org/pdf/1410.3916), 2014 - Jason Weston, Sumit Chopra, Antoine Bordes
 - [ ] [Article: Hybrid computing using a neural network with dynamic external memory](https://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz), 2016 - Alex Graves, Greg Wayne, Malcolm Reynolds, Tim Harley, Ivo Danihelka, Agnieszka Grabska-Barwińska, Sergio Gómez Colmenarejo, Edward Grefenstette, Tiago Ramalho, John Agapiou, Adrià Puigdomènech Badia, Karl Moritz Hermann, Yori Zwols, Georg Ostrovski, Adam Cain, Helen King, Christopher Summerfield, Phil Blunsom, Koray Kavukcuoglu, Demis Hassabis
