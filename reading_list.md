@@ -12,8 +12,10 @@ permalink: /reading_list/
 - [x] [Notes](_posts/2021-09-25-hopfield-network.md) on [Paper: Neural networks and physical systems with emergent collective computational abilities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC346238/pdf/pnas00447-0135.pdf), 1982 - J. J. Hopfield
 - [x] [Notes](_posts/2021-10-03-deep-learning-symbolic-math.md) on [Paper: Deep Learning for Symbolic Mathematics](https://arxiv.org/pdf/1912.01412), 2019 - Guillaume Lample, François Charton
 - [x] [Notes](_posts/2021-10-03-deep-learning-symbolic-math.md#critique) on [Paper: The Use of Deep Learning for Symbolic Integration: A Review of (Lample and Charton, 2019)](https://arxiv.org/pdf/1912.05752), 2019 - Ernest Davis
+- [x] [Video: Keynote speeches at AAAI Conference 2020](https://bdtechtalks.com/2020/03/02/geoffrey-hinton-convnets-cnn-limits/), 2020 - Geoffrey E. Hinton, Yann LeCun, Yoshua Bengio
 - [ ] Latent variable energy-based models
 - [ ] Recurrent Independent Mechanisms
+- [ ] Neuromorphic Computing
 - [ ] [Paper: Neural Turing Machines](https://arxiv.org/pdf/1410.5401), 2014 - Alex Graves, Greg Wayne, Ivo Danihelka
 - [ ] [Paper: Memory Networks](https://arxiv.org/pdf/1410.3916), 2014 - Jason Weston, Sumit Chopra, Antoine Bordes
 - [ ] [Article: Hybrid computing using a neural network with dynamic external memory](https://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz), 2016 - Alex Graves, Greg Wayne, Malcolm Reynolds, Tim Harley, Ivo Danihelka, Agnieszka Grabska-Barwińska, Sergio Gómez Colmenarejo, Edward Grefenstette, Tiago Ramalho, John Agapiou, Adrià Puigdomènech Badia, Karl Moritz Hermann, Yori Zwols, Georg Ostrovski, Adam Cain, Helen King, Christopher Summerfield, Phil Blunsom, Koray Kavukcuoglu, Demis Hassabis
